@@ -1,0 +1,39 @@
+.square{
+    width:100px;
+    height:100px;
+    background: darkcyan;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.square-container{
+    width:300px;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.game{
+    width:300px;
+    height:300px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-150px;
+}
+.board .status{
+    display: inline-block;
+}
+.board .restart{
+    display: inline-block;
+    float: right;
+
+    background: forestgreen;
+    color: #ffffff;
+    border:none;
+    cursor: pointer;
+}
